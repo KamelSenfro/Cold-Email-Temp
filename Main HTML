@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email From Kamel Fares</title>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+	body {
+		margin: 0;
+		background-color: black;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+	.wrapper {
+		width: 100%;
+		table-layout: fixed;
+		
+		-ms-text-size-adjust: 100%;
+		background-color: #ffffb9 ;
+		padding-bottom: 60px;
+	}
+	.main {
+		background-color: #ffffffc7 ;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 600px;
+		font-family: sans-serif;
+		color:#4a4a4a;
+		box-shadow: 0 0 20px #ffff7df5;
+		text-align: center;
+		align-self: center;
+	}
+	.socail {
+	width: 42px;
+	max-width: 42px;
+	
+	
+	}
+
+		
+	
+	.social-media {
+		padding: 0 0 0px 20px;
+	}
+	.two-columns {
+		font-size: 0;
+		text-align: center;
+		align-self: center;
+		background: rgb(2,0,36);
+background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814814814815) 43%, rgba(0,212,255,1) 100%);
+	}
+	.two-columns .column {
+		width: 100%;
+		max-width: 200px;
+		display: inline-block;
+		align-self: center;
+		vertical-align: top;
+	}
+	h3{
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 22px; 
+	}
+	.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff600;
+  font-size: 18px;
+  border-radius: 16px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  border: 2px solid #fff600;
+  transition: 0.3s;
+  box-shadow: 0px 6px 0px -2px rgba(215, 219, 19, 0.9);
+  background-color: #000000;
+}
+
+.button:hover {
+  box-shadow: 0 0 #FFF600;
+  transform: translateY(1px);
+}
+</style>
+</head>
+<body>
+	
+
+	<center class="wrapper">
+
+		<table class="main" width="100%">
+
+<!-- BORDER -->
+<tr>
+	<td height="5" style="background: rgb(2,0,36);
+	background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814814814815) 35%, rgba(0,212,255,1) 100%);" >
+	<h1 style="color: #000000; text-shadow: 0px 8px 9px rgba(0,0,0,0.6);; ">Hey Siemens! This me Kamel </h1>
+	</td>
+</tr>
+
+			
+<!-- LOGO & SOCIAL MEDIA SECTION -->
+	<tr>
+		<td style="padding: 4px 0 2px ;">
+			<table witdth = "100%">
+
+				<tr>
+					<td class="two-columns">
+						<table class="column">
+							<tr>
+								<td style="padding: 0 350px 3 px;">
+									 <a href="https://kamelsenfro.engineer/ ">
+										<img src="Kamel Logo Png 250px.png" alt="Kamel Fares" title="Kamel Fares" width="100%"></im>
+									 </a>
+								</td>
+							</tr>
+
+						</table>
+						<table class="column">
+						<tr>
+							<td class="social-media">
+								<a href="https://www.linkedin.com/in/kamel-senfro/"><img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="" class="socail"></a>
+								<a href="https://www.youtube.com/watch?v=MWQXWmzLT5c"><img src="https://www.freepnglogos.com/uploads/youtube-logo-icon-transparent---32.png" alt="" class="socail"></a>
+								
+							</td>
+						</tr>	
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>		
+
+<!-- BANNER IMAGE -->
+			<tr>
+				<td>
+					<a href="https://kamelsenfro.engineer/"><img src="https://kamelsenfro.engineer/wp-content/uploads/2023/06/Kamel-pic.png" alt="Kamel Fares Pic"
+						width="6000" style="max-width: 100%;"></a>
+				</td>
+			</tr>
+<!-- TITLE, TEXT & BUTTON -->
+<!-- It did't Write the Paragraph -->
+		<tr>
+			<td style="padding: 20px 12px 50px;">
+				<table width="100%">
+					<tr>
+						<td>
+							<h3> Sending This E-mail to <span style="color: #d5a300;">Apply </span> </h3>
+							<P style="line-height: 23px; font-size: 15px;
+							padding: 0px 0px 19px ;">
+								
+								<span style="color: #000000;">رساله الى سيمينز:</span> siemens ردو على اهلي <br>
+								<span style="color: #ff0000;">رساله الى رفيق</span> بحبك يا رفيق ♥ <br>
+								<span style="color: #d5a300;">Name:</span> {{$data['name']}} <br>
+								<span style="color: #d5a300;">Email:</span> {{$data['email']}} <br>
+								<span style="color: #d5a300;">Phone:</span> {{$data['phone']}} <br>
+								<span style="color: #d5a300;">Message:</span> {{$data['message']}} <br>
+							</P>
+							<a href=" https://kamelsenfro.engineer/" class="button">Visit Website</a>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+<!-- BORDER -->
+		<tr>
+			<td height="2" style="background-color: #000000" ></td>
+		</tr>	
+<!-- THREE COLUMN SECTION -->
+			<tr>
+				<td>
+					<table width = "100%">
+						<tr>
+							<td class="two-columns">
+								<table class="column">
+									<tr>
+										<td style="padding: 0 22px 10 px;">
+											<h3> <span style="color: #d5a300; box-shadow: #000000;">About</span> Me </h3>
+											<p style="line-height: 23px; font-size: 15px;
+											padding: 0px 0px 19px ;">
+												Hi, I'm Kamel Fares, a Software Engineer based in Giza, EG. I have a passion for software engineering and love to create for Websites and ML Models.
+											</p>
+										</td>
+									</tr>
+								</table>
+								<table class="column">
+									<tr>
+										<td style="padding: 0 22px 10 px;">
+											<h3> <span style="color: #d5a300;">Contact</span> Me </h3>
+											<a href=" kamelfares122@gmail.com" class="button">Email</a>
+											</a>
+											<p style="line-height: 23px; font-size: 15px;
+											padding: 0px 0px 19px ;">
+												<span style="color: #000000;">Email: Kamelfares122@gmail.com</span>
+					</table>
+				</td>
+			</tr>
+<!-- BORDER -->
+			
+<!-- TWO COLUMN SECTION -->
+			
+<!-- FOOTER SECTION -->
+<tr>
+	<td style="background-color: #303030;">
+		<table width = 100%>
+			<tr>
+				<td style="padding: 45px 20px;" >
+					<a href="https://kamelsenfro.engineer/" alt="Kamel Logo" width=" 260px"></a>
+					<p style="padding: 5px 0 3px; color: #ffffff;">
+						Made with the Infinite passion of Kamel Fares one ; at a time.
+					</p>
+					<p style="padding: 5px 0 3px; color: #fef211; text-shadow: 4px 4px 6px rgba(255, 255, 255, 1); ">
+						Contact me : +20 128 337 1367 <br>
+						E-mail : Kamelfares122@gmail.com
+					</p>
+					<p style="padding: 3px; color: #ffffff;">
+						Hope this email finds you well.
+					</p>
+					<a href="https://www.linkedin.com/in/kamel-senfro/"><img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="" class="socail"></a>
+					<a href="https://www.youtube.com/watch?v=MWQXWmzLT5c"><img src="https://www.freepnglogos.com/uploads/youtube-logo-icon-transparent---32.png" alt="" class="socail"></a> <br>
+					<a href=" https://kamelsenfro.engineer/" class="button">Visit Website</a>
+				</td>
+			</tr>	
+			<tr>
+				<td height = "10px"; style="background:rgb(2,0,36);
+				background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814814814815) 35%, rgba(0,212,255,1) 100%);">
+					
+
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+	</center> <!-- End Wrapper -->
+
+</body>
+</html>
