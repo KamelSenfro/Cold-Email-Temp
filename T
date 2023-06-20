@@ -40,8 +40,9 @@
 		align-self: center;
 	}
 	.socail {
-	width: 42px;
-	max-width: 42px;
+		align-self: center;
+	width: 40px;
+	max-width: 100%;
 	
 	
 	}
@@ -52,15 +53,17 @@
 		padding: 0 0 0px 20px;
 	}
 	.two-columns {
+		
 		font-size: 0;
 		text-align: center;
 		align-self: center;
 		background: rgb(2,0,36);
-background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814814814815) 43%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814814814815) 43%, rgba(0,212,255,1) 100%);
 	}
 	.two-columns .column {
+		
 		width: 100%;
-		max-width: 200px;
+		max-width: 300px;
 		display: inline-block;
 		align-self: center;
 		vertical-align: top;
@@ -69,7 +72,60 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
 		font-family: 'Roboto Condensed', sans-serif;
 		font-size: 22px; 
 	}
-	.button {
+
+
+/* CSS */
+.button {
+  appearance: button;
+  background-color: #fff700;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button:focus {
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    padding: 12px 50px;
+  }
+}
+	/* .button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,7 +143,7 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
   box-shadow: 0px 8px 0px -2px rgba(215, 219, 19, 0.9);
   background-color: #000000;
 }
-
+*/
 .button:hover {
   box-shadow: 0 0 #FFF600;
   transform: translateY(1px);
@@ -105,24 +161,30 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
 <tr>
 	<td height="5" style="background: rgb(2,0,36);
 	background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814814814815) 35%, rgba(0,212,255,1) 100%);" >
-	<h1 style="color: #000000; text-shadow: 0px 8px 9px rgba(0,0,0,0.6);; ">Hey Siemens! This me Kamel </h1>
+	<h1 style="color: #000000; text-shadow: 0px 8px 9px rgba(0,0,0,0.6);; ">Hey Siemens Team! This me Kamel </h1>
 	</td>
 </tr>
 
 			
 <!-- LOGO & SOCIAL MEDIA SECTION -->
 	<tr>
-		<td style="padding: 0px 0 2px ;">
+		<td style="padding: 0px 0 2px">
 			<table witdth = "100%">
 
 				<tr>
 					<td class="two-columns">
 						<table class="column">
 							<tr>
-								<td style="padding: 0 350px 3 px;">
-									 <a href="https://kamelsenfro.engineer/ ">
-										<img src="Kamel Logo Png 250px.png" alt="Kamel Fares" title="Kamel Fares" width="100%"></im>
-									 </a>
+								<td style="padding: 0 350px 3 px;
+								">
+									<h3 style="color: #fff; text-shadow: 0px 8px 9px rgba(0, 0, 0, 0.903); color: #fff; size: 20px; "
+									><span style="color: #fff; text-shadow: 0px 8px 9px rgba(0, 0, 0, 0.903); ">I have applied to Best In Class 2023 </span>- Internship for Egyptian Students! <br> 
+									<span style="color: #000000;
+									font-size: 20px;
+									text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px;">But didn't get a response</span> </br> </h3>
+									<!-- <a href="https://kamelsenfro.engineer/ ">
+										<img src="Kamel Logo Png 250px.png" alt="Kamel Fares" title="Kamel Fares" width="50px"></im>
+									 </a>-->
 								</td>
 							</tr>
 
@@ -130,12 +192,19 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
 						<table class="column">
 						<tr>
 							<td class="social-media">
+								
 								<a href="https://www.linkedin.com/in/kamel-senfro/"><img src="https://static.vecteezy.com/system/resources/previews/018/930/587/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="" class="socail"></a>
 								<a href="https://www.youtube.com/watch?v=MWQXWmzLT5c"><img src="https://www.freepnglogos.com/uploads/youtube-logo-icon-transparent---32.png" alt="" class="socail"></a>
 								
 							</td>
 						</tr>	
 						</table>
+						<tr>
+							<td>
+								<h1 style=" text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px ; color: #000000; "
+								>This is me and my ID in the Internship is <span> (368362)</span>  </h1>
+							</td>
+						</tr>
 					</td>
 				</tr>
 			</table>
@@ -156,16 +225,18 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
 				<table width="100%">
 					<tr>
 						<td>
-							<h3> Sending This E-mail to <span style="color: #d5a300;">Apply </span> </h3>
+							<h3> Sending This E-mail to <span style="color: #d5a300;">Express my Enthusiasm for the Job </span> </h3>
 							<P style="line-height: 23px; font-size: 15px;
 							padding: 0px 0px 19px ;">
-								
-								<span style="color: #000000;">رساله الى سيمينز:</span> siemens ردو على اهلي <br>
-								<span style="color: #ff0000;">رساله الى رفيق</span> بحبك يا رفيق ♥ <br>
+								<span>I hope all is well. <br>I just wanted to check in and see if there’s an update <br> on the timeline or status for the Internship position.</br>
+									<br>I applied for it on May 19, 2023. I’m still very interested in the Internship.<br>
+									<b>Looking forward to hearing back from you.</b></span>
+								 <!-- <span style="color: #000000;">رساله الى سيمينز:</span> siemens ردو على مينين اهلي <br>
+								<span style="color: #ff0000;">رساله الى رافي </span> بحبك يا رافي  ♥ <br>
 								<span style="color: #d5a300;">Name:</span> {{$data['name']}} <br>
 								<span style="color: #d5a300;">Email:</span> {{$data['email']}} <br>
 								<span style="color: #d5a300;">Phone:</span> {{$data['phone']}} <br>
-								<span style="color: #d5a300;">Message:</span> {{$data['message']}} <br>
+								<span style="color: #d5a300;">Message:</span> {{$data['message']}} <br> -->
 							</P>
 							<a href=" https://kamelsenfro.engineer/" class="button">Visit Website</a>
 							</a>
@@ -187,10 +258,13 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
 								<table class="column">
 									<tr>
 										<td style="padding: 0 22px 10 px;">
-											<h3> <span style="color: #d5a300; box-shadow: #000000;">About</span> Me </h3>
-											<p style="line-height: 23px; font-size: 15px;
-											padding: 0px 0px 19px ;">
-												Hi, I'm Kamel Fares, a Software Engineer based in Giza, EG. I have a passion for software engineering and love to create for Websites and ML Models.
+											<h3> <span style="color: #d5a300; box-shadow: #000000; text-shadow: -1px 3px 2px #000000;">About</span> Me </h3>
+											<p style="line-height: 23px; font-size: 16px;
+											color: #ffffff;	
+											padding: 0px 0px 19px ;text-shadow: 0 0 10px rgba(0,0,0,1),
+            								 0 0 20px rgba(255,255,255,0.8),
+             								0 0 30px rgba(255,225,0,0.5); ">
+												Hi, I'm Kamel Fares, a Junior Software Engineer based in Giza, EG. I have a passion for software engineering and love to create for Websites and ML Models.
 											</p>
 										</td>
 									</tr>
@@ -198,7 +272,7 @@ background: linear-gradient(157deg, rgba(2,0,36,1) 0%, rgba(213,222,18,0.9814814
 								<table class="column">
 									<tr>
 										<td style="padding: 0 22px 10 px;">
-											<h3> <span style="color: #d5a300;">Contact</span> Me </h3>
+											<h3> <span style="color: #d5a300; text-shadow: -1px 3px 2px #000000;">Contact</span> Me </h3>
 											<a href="https://www.linkedin.com/in/kamel-senfro/" class="button">Message</a>
 											</a>
 											<p style="line-height: 23px; font-size: 15px;
